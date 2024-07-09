@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trivia Quiz Game</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="quiz-container">
+        <h1>Trivia Quiz Game</h1>
+        <div id="question-container" class="hide">
+            <div id="question">Question text</div>
+            <div id="answer-buttons" class="btn-container">
+                <!-- Answer buttons will be dynamically inserted here -->
+            </div>
+        </div>
+        <div id="start-container">
+            <button id="start-btn" class="start-btn btn">Start Quiz</button>
+        </div>
+        <div id="score-container" class="hide">
+            <p>Your score: <span id="score">0</span></p>
+            <button id="view-answers-btn" class="btn">View Answers</button>
+        </div>
+        <div id="answers-container" class="hide">
+            <h2>Answers</h2>
+            <div id="answers-list"></div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
